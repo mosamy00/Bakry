@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    }
+    .home{
+       
+        height: 100vh;
+        background-image: url(images/drew-coffman-1872.jpg);
+        background-size: cover;
+        background-position:center center ;
+        
+    }
+    .home-content{
+        background-color: transparent;
+        text-align: center;
+        color:white;
+        padding-top: 200px;
+        font-size: 25;
+    
+    }
+    .home-content button{
+        padding: 10px 17px;
+       margin-top: 20px;
+       font-weight: 700;
+     
+    }
+    .home-content p{
+      padding-bottom:20px ;
+      font-family: 'Alegreya Sans', sans-serif;
+    }
+    .home-content h1{
+        padding-bottom: 20px;
+        font-family: 'Alegreya', serif;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 50px;
+    }
+    .but-1{
+        background-color: #8e7754;
+        color: white; 
+        border: 2px solid transparent;
+    }
+    .but-2{
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+    }
+    .clear_fix{
+        clear: both;
+    }
+    .home-nav{
+        padding: 20px 30px;
+        background-color: rgba(0, 0,0, 0);
+    }
+    
+    .logo{
+        
+        width: 30%;
+        float: left;
+    }
+    .logo img{
+        width: 45%;
+    }
+    
+    .menu{
+       
+        width: 50%;
+        float: right;
+    }
+    
+    .menu ul{
+        list-style: none;
+    
+    }
+    .menu ul li{
+        display: inline-block;
+        margin: 15px 20px;
+        
+        
+    }
+    .menu ul li a{
+        color: white;
+        text-decoration: none;
+       font-size: 20px;
+    }
+    .continer{
+        width: 90%;
+        margin: auto;
+        padding: 90px 0px;
+    }
+    .About-img{
+        width: 50%;
+        float: left;
+    }
+    .About-img img{
+        width: 92%;
+    }
+    .About-content{
+        width: 48%;
+        float: right;
+        padding: 50px 0px;
+    }
+    .About-content h3{
+        padding-bottom: 30px;
+        font-family: "Alegreya";
+        font-size: 1.5rem;
+       
+        font-weight: 400;
+    }
+    .About-content p{
+        padding-bottom: 50px;
+        font-family: "Alegreya Sans";
+        font-size: 17px;
+    }
+    .About-content ul{
+        list-style: none;
+    }
+    .About-content li{
+        margin-bottom: 40px;
+        
+        
+    }
+    .About-content li img{
+        width: 40px;
+        float: left;
+    }
+    .our-location{
+        background-color: #f8f8f8;
+    }
+    .our-location-content{
+        width: 50%;
+        float: left;
+        padding: 100px 0;
+    }
+    .our-location-content h2{
+        padding: 20px 0;
+        font-family: "Alegreya Sans";
+        color: #303030;
+        font-weight: 400;
+        font-size: 40px;
+    }
+    .our-location-content p{
+        padding: 20px 0;
+        font-family: "Alegreya Sans";
+        color: #686868;
+        font-size: 17px;
+    
+    }
+    .our-location-img{
+        width: 50%;
+        float: right;
+    }
+    .our-location-img img{
+    width: 90% ;
+    }
+    .our-baking-content{
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .our-baking-content h2{
+        padding: 15px 0;
+        font-family: "Alegreya Sans";
+        font-size: 25px;
+    
+    }
+    .our-baking-content p{
+        font-family: "Alegreya Sans";
+        font-weight: 200;
+        color: #888;
+        padding-top: 15px;
+    }
+    
+    .our-baking-image{
+        width: 33.33333333%;
+        float: left;
+    }
+    .our-baking-image img{
+        width: 90%;
+    }
+    .our-baking-image h3 {
+        text-align: center;
+        padding: 20px 0;
+        font-family: "Alegreya Sans";
+    }
+    .our-baking-image p{
+        color: #888;
+        font-family: "Alegreya Sans";
+        text-align: center;
+    }
+    .contact-information{
+        background-color:#f8f8f8 ;
+    }
+    .contact-information-content{
+        width: 50%;
+        float: left;
+    }
+    .contact-information-content h2{
+        padding: 30px 0 ;
+        font-family: "Alegreya Sans";
+    
+    }
+    .contact-information-content p{
+        margin: 20px 0;
+        font-family: "Alegreya Sans";
+        color: #888;
+    }
+    .contact-information-content ul{
+        list-style: none;
+    }
+    .contact-information-content li{
+        margin-bottom: 40px;
+        
+        
+    }
+    .contact-information-content li img{
+        width: 40px;
+        float: left;
+    }
+    .contact-information-content li span{
+        margin: 0 15px;
+    }
+    .contact-information-map{
+        width: 50%;
+        float: right;
+    } 
+    /* .contact-information-map img{
+        width: 90%;
+    } */
+    .footer{
+        background-color: #403d38;
+    }
+    .footer-detalis{
+        color: white;
+    }
+    .footer-detalis-1{
+        width: 25%;
+        float: left;
+    }
+    .footer-detalis-1 h2,p{
+       padding-bottom: 20px;
+       font-size: 18px;
+       font-family: "Alegreya Sans";
+    
+    }
+    .footer-detalis-1 ul,p,li,span{
+        list-style: none;
+        color: #969696;
+       
+    }
+    .footer-detalis-1 li,span{
+        margin: 20px 10px;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+    
+    }
+    .footer-detalis-1 li {
+        margin-bottom: 6px;
+        padding-bottom: 7px;
+    }
+    .footer-detalis-1 li img{
+        width: 30px;
+    }
+    .copy-right{
+        background-color: #353330;
+       
+    }
+    .copy-right-details{
+        text-align: center;
+        padding: 100px 0;
+    }
+    .copy-right-details p{
+        color: #797979;
+        margin: 20px 0;
+    }
+    
+    .iconlast{
+    
+        width: 50px;
+    }
+    
+    
